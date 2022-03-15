@@ -1,12 +1,5 @@
 library(ggridges)
 library(tidyverse)
-library(extrafont)
-loadfonts()
-
-theme_set(theme_classic(base_family = 'Garamond', base_size = 18))
-
-#working directory
-setwd("E:/the lazy analyst/bhutan weather data")
 
 #read data
 df <- read.csv('Khasadrapchu_data_daily.csv')
